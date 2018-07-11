@@ -1,0 +1,39 @@
+/*
+Theme Name: customtheme
+Author: Vegibit
+Author URI: https://vegibit.com
+Version: 1.0
+ */
+ 
+.grid-box{
+	display:grid;
+	grid-template-columns: 200px 1fr;
+	grid-template-areas: "image" "content";
+	border: solid 1px;
+	grid-gap: 20px;
+}
+
+/* .grid-content{
+	padding: 20px;
+	border: solid 1px;
+} */
+.grid-content img{
+	max-width:100%;
+	height:auto;
+}
+.title-content{
+	padding: 20px;
+    border: solid 1px;
+    grid-row-gap: 5px;
+}
+.grid-item {
+  font-size: 14px;
+  text-align: left;
+}
+
+.grid-author-title{
+	display:grid;
+	grid-template-columns: 55px 1fr;
+	grid-template-areas: "image" "content";
+	border: solid 1px;
+}
