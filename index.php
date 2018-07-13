@@ -11,17 +11,17 @@ if ( have_posts() ) :
 				</div>
 				<div class="title-content">
 					<div class="grid-author-title">
-						<div><?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?></div>
+						<div class="avatar-shape pt-2"><?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?></div>
 						
-						<div>
-							
-							<?php echo get_the_author_link(); ?>
+						<div class="author-name">
+							<a href="#"><?php echo get_the_author_link(); ?></a><br>
+							<p><?php echo get_the_date(); ?></p>
 						</div>
 					</div>
-					<div class="grid-item">
-						<h5><u><a href="<?php the_permalink() ?>"><?php the_title() ?></a></u></h5>
+					<div class="grid-item mt-2">
+						<h5><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h5>
 					
-					<?php the_content('continue reading...'); ?>
+					<?php the_content(); ?><a href="<?php the_permalink()?>">continue reading..</a>
 					</div>
 				</div>	
 			</article>

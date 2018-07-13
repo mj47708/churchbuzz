@@ -12,8 +12,8 @@
 		<div class="align-self-center member-link"><a href="#" class="nav-link">About membership</a></div>
 		
 		<div class="d-flex align-items-center">
-			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/churchbuzz.jpg" height="40px" width="auto" class="big-logo">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/churchbuzz.jpg" height="30px" width="auto" class="small-logo">
+			<a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/churchbuzz.jpg" height="40px" width="auto" class="big-logo"></a>
+				<a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/churchbuzz.jpg" height="30px" width="auto" class="small-logo"></a>
 		</div>
 		
 		<div class="align-self-center"><a href="#" class="p-2 sign-link">sign in</a>
