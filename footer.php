@@ -1,5 +1,33 @@
 <footer class="site-footer">
-    <p><?php bloginfo( 'name' ) ?></p>
+
+	<div class="footer-grid pt-3">
+		<div class="icon-grid">
+			<ul class="copyright mr-4"><p>© YKA Media Pvt. Ltd.</p></ul>
+			<ul class="list-inline list-inline-item">
+				
+				<li class="list-inline-item"><a href="#"><i class="fa fa-facebook facebook" aria-hidden="true"></i></a></li>
+				<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+				<li class="list-inline-item"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+				<li class="list-inline-item"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+				
+			</ul>
+		</div>
+		
+		<div class="contact-grid">
+		
+			<ul class="list-inline">
+				<li class="list-inline-item"><a href="">Home</a></li>
+				<li class="list-inline-item"><a href="">About</a></li>
+				<li class="list-inline-item"><a href="">Term</a></li>
+				<li class="list-inline-item"><a href="">Community Guide</a></li>
+				<li class="list-inline-item"><a href="">Contact Us</a></li>
+				
+			</ul>
+		</div>
+	</div>
+	
+    
 </footer>
 <?php wp_footer() ?>
 </body>
