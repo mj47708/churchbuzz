@@ -88,7 +88,18 @@ Version: 1.0
     text-decoration: none;
 }
 /* ------------------------------------------footer----------------------------------------- */
-.footer-grid{
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+
+
+/*.footer-grid{
 	display:grid;
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap:195px;
@@ -96,7 +107,7 @@ Version: 1.0
 	border-top:red solid 1px;
 	justify-items:center;
 	align-items:center;
-	}
+	}*/
 	
 @media (max-width:1020px){.footer-grid{
 	display:grid;
@@ -108,13 +119,17 @@ Version: 1.0
 	align-items:center;
 }}
 
-.icon-grid{    
+/*.icon-grid{    
 	display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: baseline;
     align-items: baseline;
 	
-}
+}*/
+@media (max-width:768px){.icon-grid
+	{background:red;
+	padding-top:10px;		
+}}
 
 .icon-grid ul li{border: solid 2px;
     border-radius: 25px;
@@ -127,13 +142,15 @@ Version: 1.0
 	 transition-duration:0.90s;
     -webkit-transition-duration:0.90s;
 	}
+	
+@media (max-width:768px){.icon-grid ul li{border-color:white;}}
 
 .icon-grid ul li:hover{
 	color:gray;
 	transform:translateY(-10px);
-	
 	}
 .icon-grid ul li a{color:gray;}
+@media (max-width:768px){.icon-grid ul li a{color:white;}}
 
 .facebook{}
 
@@ -146,12 +163,20 @@ Version: 1.0
 }
 .contact-grid ul li a:hover{color:red;}
 
+@media (max-width:768px){.contact-grid{padding:15px;}}
+
 .copyright{
 	display:inline-block;
 	padding-left:0px;	
 	}
 
-@media (max-width:360px){.copyright{
+	@media (max-width:768px){
+	.copyright{
+		color:white;
+		padding-top:6px;
+	}}
+
+	@media (max-width:360px){.copyright{
 		display:-webkit-box;
 		margin-bottom:0px;
 		}
