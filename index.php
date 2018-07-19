@@ -18,10 +18,10 @@ if ( have_posts() ) :
 							<p><?php echo get_the_date(); ?></p>
 						</div>
 					</div>
-					<div class="grid-item mt-2">
+					<div class="grid-item">
 						<h5><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h5>
 					
-					<?php the_content(); ?><a href="<?php the_permalink()?>">continue reading..</a>
+					<?php the_content(); ?><h7><a href="<?php the_permalink()?>">continue reading..</a></h7>
 					</div>
 				</div>	
 			</article>

@@ -5,38 +5,30 @@ Author URI: https://vegibit.com
 Version: 1.0
  */
  
-/*@media (max-width:740px){.grid-box{
-	display:grid;
-	grid-template-columns: 50% 1fr;
-	grid-template-areas: "image" "content";
-	
-	grid-gap: 20px;
-}}*/
-
-.grid-box{
+ .grid-box{
 	display:grid;
 	grid-template-columns:300px 1fr;
 	grid-template-areas: "image" "content";
-	max-width:100%;
 	grid-gap: 20px;
 	}
-	
+ 
+@media (max-width:774px){.grid-box{
+	display:grid;
+	grid-template-columns: 100px 1fr;
+	grid-template-areas: "image" "content";
+	grid-gap: 20px;
+}}
 
-/* .grid-content{
-	padding: 20px;
-	border: solid 1px;
-} */
+	
 .grid-content img{
 	width:100%;
 	height:auto;
 }
-@media (max-width:740px)
-{
-.grid-content img{
-	max-width:100%;
-	height:auto;
-	}
-}
+	
+@media (max-width:774px){.grid-content img{
+	width:100px;
+	height:100px;
+}}
 
 
 .title-content{
@@ -65,6 +57,17 @@ Version: 1.0
     font-family: merriweather, Georgia, serif;
     font-weight: 600;
 }
+
+@media (max-width:774px){.grid-item h5 a{
+    box-shadow: 0 1px 0 0 currentColor;
+	font-size: 20px;
+    font-family: merriweather, Georgia, serif;
+    font-weight: 600;
+}}
+@media (max-width:774px){.grid-item p{
+	display:none;
+}}
+
 
 .grid-item h5 a:hover{    
 	text-decoration: underline;
@@ -121,10 +124,13 @@ Version: 1.0
     text-align:center;
 	border-color:gray;
 	font-size:15px;
+	 transition-duration:0.90s;
+    -webkit-transition-duration:0.90s;
 	}
 
-.icon-grid ul li a:hover{
+.icon-grid ul li:hover{
 	color:gray;
+	transform:translateY(-10px);
 	
 	}
 .icon-grid ul li a{color:gray;}

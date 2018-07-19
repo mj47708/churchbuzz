@@ -8,7 +8,7 @@
 </head>
  
 <body>
-<div class="d-flex justify-content-around content-between p-2">
+<div class="d-flex justify-content-around content-between pt-2">
 		<div class="align-self-center member-link"><a href="#" class="nav-link">About membership</a></div>
 		
 		<div class="d-flex align-items-center">

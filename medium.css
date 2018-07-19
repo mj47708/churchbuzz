@@ -42,6 +42,8 @@
 @media (max-width:998px){.content-between {
     -ms-flex-pack: distribute!important;
     justify-content: space-between!important;
+	padding-left: 160px;
+    padding-right: 160px;   
 }}
  
 
