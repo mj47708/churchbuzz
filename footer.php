@@ -2,7 +2,7 @@
 
 	<div class="row pt-3">
 		<div class="col-md-6 icon-grid d-flex justify-content-center">
-			<ul class="copyright mr-4"><p>© YKA Media Pvt. Ltd.</p></ul>
+			<div class="copyright mr-4">© YKA Media Pvt. Ltd.</div>
 			<ul class="list-inline list-inline-item">
 				
 				<li class="list-inline-item"><a href="#"><i class="fa fa-facebook facebook" aria-hidden="true"></i></a></li>
@@ -16,7 +16,7 @@
 		
 		<div class="col-md-6 d-flex justify-content-center contact-grid">
 		
-			<ul class="list-inline">
+			<ul class="list-inline footer-scroll">
 				<li class="list-inline-item"><a href="">Home</a></li>
 				<li class="list-inline-item"><a href="">About</a></li>
 				<li class="list-inline-item"><a href="">Term</a></li>

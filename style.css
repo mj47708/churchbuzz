@@ -182,3 +182,10 @@ Version: 1.0
 		}
 	
 }
+
+.footer-scroll {
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+	margin-bottom:0px;
+}

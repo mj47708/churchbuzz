@@ -39,12 +39,12 @@
 
 
 
-@media (max-width:998px){.content-between {
+/*@media (max-width:998px){.content-between {
     -ms-flex-pack: distribute!important;
     justify-content: space-between!important;
 	padding-left: 160px;
     padding-right: 160px;   
-}}
+}}*/
  
 
 .scroll {
@@ -54,19 +54,27 @@
 	margin-bottom:0px;
 }
 .scroll li a{
-	color: black;
+	color: #1a1a1a;
+	font-family:Montserrat,helvetica neue,sans-serif;
+	font-size:16px;
 }
 .scroll li a:hover {
 	text-decoration:none;
 }
 
 @media (max-width:769px){
-	.big-logo{display:none;}
+.big-logo a img{
+	width:auto;
+	height:30px;}
 }
 
-@media (min-width:769px) {
+/*@media (max-width:769px){
+	.big-logo{display:none;}
+}*/
+
+/*@media (min-width:769px) {
 	.small-logo{display:none;}
-}
+}*/
 
 .dropdown, .dropup {
     position: relative;
