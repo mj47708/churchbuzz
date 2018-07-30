@@ -16,17 +16,28 @@ Version: 1.0
  
  .grid-box{
 	display:grid;
-	grid-template-columns:300px 1fr;
+	grid-template-columns:200px 1fr;
 	grid-template-areas: "image" "content";
 	grid-gap: 20px;
-	}
+}
+
+.grid-content{
+	background-size: cover;
+	min-height: 200px;
+}
  
-@media (max-width:774px){.grid-box{
-	display:grid;
-	grid-template-columns: 100px 1fr;
-	grid-template-areas: "image" "content";
-	grid-gap: 20px;
-}}
+@media( max-width:768px ){
+	.grid-box{
+		display:grid;
+		grid-template-columns: 100px 1fr;
+		grid-template-areas: "image" "content";
+		grid-gap: 20px;
+	}
+	.grid-content{
+		min-height: 100px;
+	}
+}
+
 
 	
 .grid-content img{
