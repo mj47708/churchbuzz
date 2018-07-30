@@ -12,10 +12,10 @@
 			<div class="big-logo">
 				<a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/churchbuzz.jpg" height="40px" width="auto"></a>
 			</div>	
-		<!--
-			<div class="align-self-center"><a href="#" class="p-2 sign-link">sign in</a>
+		
+			<div class="align-self-center"><!--<a href="#" class="p-2 sign-link">sign in</a>-->
 				<button type="button" class="btn btn-success">Get started</button>
-			</div>-->
+			</div>
 		</div>
 	</div>
 	

@@ -5,6 +5,15 @@ Author URI: https://vegibit.com
 Version: 1.0
  */
  
+ .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background: white;
+}
+ 
+ 
  .grid-box{
 	display:grid;
 	grid-template-columns:300px 1fr;
