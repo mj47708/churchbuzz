@@ -4,7 +4,7 @@
 		<div class='text-muted small' style='margin-bottom: 20px;'><a href="<?php the_author_link();?>"><?php the_author(); ?></a> on <?php echo get_the_date(); ?></div>
 		<div class="grid-item">
 			<h5><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h5>
-			<?php the_content(); ?>
+			<?php the_excerpt(); ?>
 			<a href="<?php the_permalink()?>">Continue reading ...</a>
 		</div>
 	</div>	

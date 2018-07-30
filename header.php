@@ -9,7 +9,7 @@
 	<body>
 	<div class="container">
 		<div class="d-flex justify-content-between pt-3 pl-3 pr-3">
-			<div class="big-logo">
+			<div class="big-logo pr-2 pt-1">
 				<a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/churchbuzz.jpg" height="40px" width="auto"></a>
 			</div>	
 		
