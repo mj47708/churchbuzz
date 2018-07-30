@@ -13,15 +13,26 @@
 		</div>
 		
 		<div class="col-md-6 d-flex justify-content-center contact-grid">
-		
-			<ul class="list-inline footer-scroll">
+			<?php
+				wp_nav_menu( array(
+					'menu'              => 'secondary',
+					'theme_location'    => 'secondary',
+					'depth'             => 1,
+					'container'         => false,
+					'menu_id'			=> 'footer-menu',
+					'menu_class'        => 'list-inline footer-scroll',
+					'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+					'walker'            => new wp_bootstrap_navwalker()
+				));
+			?>
+			<!--ul class="list-inline footer-scroll">
 				<li class="list-inline-item"><a href="">Home</a></li>
 				<li class="list-inline-item"><a href="">About</a></li>
 				<li class="list-inline-item"><a href="">Term</a></li>
 				<li class="list-inline-item"><a href="">Community Guide</a></li>
 				<li class="list-inline-item"><a href="">Contact Us</a></li>
 				
-			</ul>
+			</ul-->
 		</div>
 	</div>
 	

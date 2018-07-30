@@ -22,13 +22,19 @@
 	<div class="row sticky-top">
 		<div class="container bg-dark navbar-dark">
 			<div class="navbar navbar-expand-sm justify-content-start px-2">
-				<ul class="list-inline list-inline-item scroll">
-					<li class="p-2 list-inline-item"><a href="#">Categories</a></li>
-					<li class="p-2 list-inline-item"><a href="#">About</a></li>
-					<li class="p-2 list-inline-item"><a href="#">Add your church</a></li>
-					<li class="p-2 list-inline-item"><a href="#">Submit your circle</a></li>
-					<li class="p-2 list-inline-item"><a href="#">Contact</a></li>	
-				</ul>
+				<?php
+					wp_nav_menu( array(
+						'menu'              => 'primary',
+						'theme_location'    => 'primary',
+						'depth'             => 1,
+						'container'         => false,
+						'menu_id'			=> 'primary-menu',
+						'menu_class'        => 'list-inline list-inline-item scroll',
+						'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+						'walker'            => new wp_bootstrap_navwalker()
+					));
+					
+				?>
 			</div>
 		</div>
 	</div>
