@@ -17,10 +17,11 @@
 				<button type="button" class="btn btn-success">Get started</button>
 			</div>-->
 		</div>
-
+	</div>
 	
-		<div class="container sticky-top bg-dark navbar-dark">
-			<div class="navbar navbar-expand-sm justify-content-start mt-1 px-2">
+	<div class="row sticky-top">
+		<div class="container bg-dark navbar-dark">
+			<div class="navbar navbar-expand-sm justify-content-start px-2">
 				<ul class="list-inline list-inline-item scroll">
 					<li class="p-2 list-inline-item"><a href="#">Categories</a></li>
 					<li class="p-2 list-inline-item"><a href="#">About</a></li>
@@ -31,3 +32,4 @@
 			</div>
 		</div>
 	</div>
+	
