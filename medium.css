@@ -107,3 +107,38 @@ button:focus {
 .bttn:not(:disabled):not(.disabled) {
     cursor: pointer;
 }
+
+/*-------------------------------Single post---------------------------*/
+.para-grid{
+	display:grid;
+	grid-template-rows: 1fr;
+	grid-template-areas: "image" "content";
+	grid-gap:10px;
+}
+.content-pic img{
+	width:100%;
+	height:auto;
+	}
+.author-content-grid{
+	display:grid;
+	grid-template-columns: 200px 1fr;
+	grid-template-areas: "image" "content";
+	grid-gap:10px;
+}
+@media (max-width:768px){.author-content-grid{
+	display:grid;
+	grid-template-columns:1fr;
+	
+}}
+@media (max-width:765px){.avatar-box-grid{
+	display:none;
+}}
+
+
+.avatar-box img{
+	height: auto;
+    width: 60px;
+    border-radius: 30px;
+
+}
+.avatar-box-grid span{display:inherit;}
