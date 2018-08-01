@@ -19,23 +19,19 @@
 		</div>
 	</div>
 	
-	<div class="row sticky-top">
-		<div class="container bg-dark navbar-dark">
-			<div class="navbar navbar-expand-sm justify-content-start px-2">
-				<?php
-					wp_nav_menu( array(
-						'menu'              => 'primary',
-						'theme_location'    => 'primary',
-						'depth'             => 1,
-						'container'         => false,
-						'menu_id'			=> 'primary-menu',
-						'menu_class'        => 'list-inline list-inline-item scroll',
-						'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-						'walker'            => new wp_bootstrap_navwalker()
-					));
-					
-				?>
-			</div>
+	<div class="container bg-dark navbar-dark sticky-top">
+		<div class="navbar navbar-expand-sm justify-content-start px-0">
+		<?php
+			wp_nav_menu( array(
+				'menu'              => 'primary',
+				'theme_location'    => 'primary',
+				'depth'             => 1,
+				'container'         => false,
+				'menu_id'			=> 'primary-menu',
+				'menu_class'        => 'list-inline list-inline-item scroll',
+				'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+				'walker'            => new wp_bootstrap_navwalker()
+			));
+		?>
 		</div>
 	</div>
-	
