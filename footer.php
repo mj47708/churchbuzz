@@ -1,8 +1,8 @@
-<footer class="site-footer pt-3">
+<footer class="pt-3 container-box row-width">
 	<div class="row">
-		<div class="col-md-6 icon-grid justify-box">
-			<div class="copyright mr-4">© YKA Media Pvt. Ltd.</div>
-			<ul class="list-inline list-inline-item">
+		<div class="col-lg-6 bg-red">
+			<div class="copyright mr-4"><p>© Church Buzz</p></div>
+			<ul class="list-inline list-inline-item contact-grid">
 				<li class="list-inline-item"><a href="#"><i class="fa fa-facebook facebook" aria-hidden="true"></i></a></li>
 				<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 				<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
@@ -10,8 +10,7 @@
 				<li class="list-inline-item"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 			</ul>
 		</div>
-		<!--
-		<div class="col-md-6 d-flex justify-content-center contact-grid">
+		<div class="col-lg-6 text-left">
 			<?php
 				wp_nav_menu( array(
 					'menu'              => 'secondary',
@@ -25,9 +24,16 @@
 				));
 			?>
 		</div>
-		
-		-->
 	</div>
+	<!--
+	
+		
+		<!--
+		
+		
+		--
+	</div>
+	-->
 </footer>
 <?php wp_footer() ?>
 </body>

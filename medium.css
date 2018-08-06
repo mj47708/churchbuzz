@@ -151,3 +151,15 @@ button:focus {
 
 }
 .avatar-box-grid span{display:inherit;}
+
+.excerpt-para h2 p{
+	font-size: 24px;
+    font-family: Merriweather, Georgia, serif;
+    line-height: 1.7;
+	color: #686868;
+}
+.content-para p{
+	font-family: Merriweather, Georgia, serif;
+    font-size: 21px;
+    line-height: 28px;
+	}
