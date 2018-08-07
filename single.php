@@ -27,7 +27,7 @@
 						 <?php echo get_the_date(); ?>	
 						</span>
 					</div>
-					<div class="text-left">
+					<div class="text-left para-box">
 						<p><?php the_content();?></p>
 					</div>
 				</div>
