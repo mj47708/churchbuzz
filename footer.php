@@ -1,8 +1,8 @@
-<footer class="pt-3 container-box row-width">
+<footer class="pt-3 container container-box">
 	<div class="row">
-		<div class="col-lg-6 bg-red">
+		<div class="col-lg-6 bg-red icon-grid">
 			<div class="copyright mr-4"><p>© Church Buzz</p></div>
-			<ul class="list-inline list-inline-item contact-grid">
+			<ul class="list-inline list-inline-item ">
 				<li class="list-inline-item"><a href="#"><i class="fa fa-facebook facebook" aria-hidden="true"></i></a></li>
 				<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 				<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
@@ -10,7 +10,7 @@
 				<li class="list-inline-item"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 			</ul>
 		</div>
-		<div class="col-lg-6 text-left">
+		<div class="col-lg-6 text-left menu-font">
 			<?php
 				wp_nav_menu( array(
 					'menu'              => 'secondary',
