@@ -157,9 +157,16 @@ button:focus {
     font-family: Merriweather, Georgia, serif;
     line-height: 1.7;
 	color: #686868;
-}
+	}
 .content-para p{
 	font-family: Merriweather, Georgia, serif;
     font-size: 21px;
     line-height: 28px;
 	}
+	
+.para-box p{
+    font-family: Merriweather,Georgia,serif;
+    line-height: 1.75;
+    font-size: 20px;
+    color: #1a1a1a;
+}
